@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaDesktopApp_ReactiveUI", "AvaloniaDesktopApp_ReactiveUI\AvaloniaDesktopApp_ReactiveUI.csproj", "{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaDesktopApp_ReactiveUI.Desktop", "AvaloniaDesktopApp_ReactiveUI.Desktop\AvaloniaDesktopApp_ReactiveUI.Desktop.csproj", "{9AE80E48-B82C-402F-9B72-CBE1A054E306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop (ReactiveUI)", "Desktop (ReactiveUI)", "{48081B90-4A97-464E-8B36-F616194199E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaDesktopApp_Desktop_CommunityToolkit", "AvaloniaDesktopApp_Desktop_CommunityToolkit\AvaloniaDesktopApp_Desktop_CommunityToolkit.csproj", "{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaDesktopApp_Desktop_CommunityToolkit.Desktop", "AvaloniaDesktopApp_Desktop_CommunityToolkit.Desktop\AvaloniaDesktopApp_Desktop_CommunityToolkit.Desktop.csproj", "{C5EB354F-FC40-4907-85E3-C467E373C5ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop (Community Toolkit Patern)", "Desktop (Community Toolkit Patern)", "{C9B99FE5-6BDD-40F5-9693-6EA2A7174878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE80E48-B82C-402F-9B72-CBE1A054E306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE80E48-B82C-402F-9B72-CBE1A054E306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE80E48-B82C-402F-9B72-CBE1A054E306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE80E48-B82C-402F-9B72-CBE1A054E306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EB354F-FC40-4907-85E3-C467E373C5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EB354F-FC40-4907-85E3-C467E373C5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EB354F-FC40-4907-85E3-C467E373C5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EB354F-FC40-4907-85E3-C467E373C5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0ED9803-D14D-4FAB-AAA1-47D0DB24876E} = {48081B90-4A97-464E-8B36-F616194199E7}
+		{9AE80E48-B82C-402F-9B72-CBE1A054E306} = {48081B90-4A97-464E-8B36-F616194199E7}
+		{E5BECCD5-D4CD-4CDD-A4FE-E961B4C64BEB} = {C9B99FE5-6BDD-40F5-9693-6EA2A7174878}
+		{C5EB354F-FC40-4907-85E3-C467E373C5ED} = {C9B99FE5-6BDD-40F5-9693-6EA2A7174878}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09D31A0F-5C10-4DE0-9481-EB42A916544B}
+	EndGlobalSection
+EndGlobal
