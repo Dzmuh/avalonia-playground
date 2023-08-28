@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalogStandalone", "ControlCatalogStandalone\ControlCatalogStandalone.csproj", "{CD863302-692F-4019-AE1C-15C9A4B5E958}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalogStandalone.Android", "ControlCatalogStandalone.Android\ControlCatalogStandalone.Android.csproj", "{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalogStandalone.Desktop", "ControlCatalogStandalone.Desktop\ControlCatalogStandalone.Desktop.csproj", "{F9D6C409-C63A-4069-AD5C-85F2F37214EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalogStandalone.iOS", "ControlCatalogStandalone.iOS\ControlCatalogStandalone.iOS.csproj", "{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlCatalogStandalone.Browser", "ControlCatalogStandalone.Browser\ControlCatalogStandalone.Browser.csproj", "{BCAD00A0-2769-455E-B485-219BA35443C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A95643C-CE95-4D5B-942F-15BDB9B6AF96}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD863302-692F-4019-AE1C-15C9A4B5E958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD863302-692F-4019-AE1C-15C9A4B5E958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD863302-692F-4019-AE1C-15C9A4B5E958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD863302-692F-4019-AE1C-15C9A4B5E958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918F38F2-02F9-4B9F-A8AA-1D814EEA0628}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F9D6C409-C63A-4069-AD5C-85F2F37214EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D6C409-C63A-4069-AD5C-85F2F37214EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D6C409-C63A-4069-AD5C-85F2F37214EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D6C409-C63A-4069-AD5C-85F2F37214EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAD6DEA-D894-43E8-B11F-A14E9AC95DC4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BCAD00A0-2769-455E-B485-219BA35443C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAD00A0-2769-455E-B485-219BA35443C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAD00A0-2769-455E-B485-219BA35443C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAD00A0-2769-455E-B485-219BA35443C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E690ED47-46B9-40A6-89E3-F6BDF274437B}
+	EndGlobalSection
+EndGlobal
