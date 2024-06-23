@@ -9,6 +9,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clock", "Clock\Clock\Clock.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clock", "Clock", "{AFA6AFC3-031F-4BB2-A9A1-487BF22A8B74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "~", "~", "{C1C87E88-13A6-4383-AD8C-6C9893A88BDD}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebTextReader", "WebTextReader", "{01FEF49F-4548-433A-B1D3-D9193AEC2CC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTextReader", "WebTextReader\WebTextReader\WebTextReader.csproj", "{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTextReader.Desktop", "WebTextReader\WebTextReader.Desktop\WebTextReader.Desktop.csproj", "{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +35,14 @@ Global
 		{60AFE538-A020-4EF6-9DB8-069371E5C46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AFE538-A020-4EF6-9DB8-069371E5C46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AFE538-A020-4EF6-9DB8-069371E5C46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +50,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2B9651CA-406B-4760-91DB-6E693DEE3EDE} = {AFA6AFC3-031F-4BB2-A9A1-487BF22A8B74}
 		{60AFE538-A020-4EF6-9DB8-069371E5C46C} = {AFA6AFC3-031F-4BB2-A9A1-487BF22A8B74}
+		{70BC7FFD-755D-4F0A-8CF8-A68EA71369BC} = {01FEF49F-4548-433A-B1D3-D9193AEC2CC8}
+		{ECF79A8D-42C6-4130-B38A-01E3BF6F5FE0} = {01FEF49F-4548-433A-B1D3-D9193AEC2CC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1907277B-D572-4E67-AE8D-4F18FFE182D8}

@@ -12,6 +12,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Clock\Clock.csproj" />
+		<ProjectReference Include="..\WebTextReader\WebTextReader.csproj" />
 	</ItemGroup>
 </Project>
